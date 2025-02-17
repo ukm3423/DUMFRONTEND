@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Home from './pages/Home'
 import LoginPage from './pages/LoginPage'
 import RegistrationPage from './pages/RegistrationPage'
+import Header from './components/Header';
+import Courses from './pages/Courses';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,10 +12,12 @@ function App() {
   return (
     <>
       <Router>
+        <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegistrationPage />} />
+          <Route path="/courses" element={<Courses />} />
         </Routes>
 
       </Router>
