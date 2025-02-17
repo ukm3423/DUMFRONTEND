@@ -27,26 +27,27 @@ const Home = () => {
           <h2 className="text-3xl font-semibold mb-12">Featured Courses</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="course-card bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src="https://via.placeholder.com/350" alt="Web Development" className="w-full h-48 object-cover" />
+              <img src="https://i0.wp.com/www.admecindia.co.in/wp-content/uploads/2020/01/web-developer-standard.jpg?fit=390%2C355&ssl=1" alt="Web Development" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-4">Web Development</h3>
                 <p className="text-gray-700 mb-4">Learn how to build dynamic, responsive websites with modern tools.</p>
                 <a href="/courses" className="text-blue-600 font-semibold hover:text-blue-800">Learn More</a>
               </div>
             </div>
+            
             <div className="course-card bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src="https://via.placeholder.com/350" alt="Data Science" className="w-full h-48 object-cover" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSId33poDQBhzSeAAPIYQpdfcivsfbgRMNDB6iZLu8bmq0j5laVPCWJgE3fJfnfDDJQEos&usqp=CAU" alt="Cyber Security" className="w-full h-48 object-cover" />
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4">Data Science</h3>
-                <p className="text-gray-700 mb-4">Master data analysis and machine learning with hands-on projects.</p>
+                <h3 className="text-2xl font-semibold mb-4">Cyber Security</h3>
+                <p className="text-gray-700 mb-4">Become an expert in safeguarding networks and systems from cyber threats.</p>
                 <a href="/courses" className="text-blue-600 font-semibold hover:text-blue-800">Learn More</a>
               </div>
             </div>
             <div className="course-card bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src="https://via.placeholder.com/350" alt="Cyber Security" className="w-full h-48 object-cover" />
+              <img src="https://www.techandmanage.com/images/DataScience.jpg" alt="Data Science" className="w-full h-48 object-cover" />
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-4">Cyber Security</h3>
-                <p className="text-gray-700 mb-4">Become an expert in safeguarding networks and systems from cyber threats.</p>
+                <h3 className="text-2xl font-semibold mb-4">Data Science</h3>
+                <p className="text-gray-700 mb-4">Master data analysis and machine learning with hands-on projects.</p>
                 <a href="/courses" className="text-blue-600 font-semibold hover:text-blue-800">Learn More</a>
               </div>
             </div>
