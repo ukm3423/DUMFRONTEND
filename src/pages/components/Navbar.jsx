@@ -1,17 +1,34 @@
-import React from 'react'
+import React from 'react';
 import { ImMenu } from "react-icons/im";
+import { MdAccountCircle } from "react-icons/md";
 import { Link } from 'react-router-dom';
-const Navbar = () => {
-  return (
-   <nav className='bg-blue-900 flex justify-betweeen px-8 items-center py-6'>
-<section>
-<ImMenu className='text-3xl' />
-<Link to={"www.google.com"} className='text-4xl font-mono'>
-<img src="https://cdn.vectorstock.com/i/2000v/06/05/cat-logo-vector-26730605.avif"  alt="" />
-</Link>
-</section>
-   </nav>
-  )
-}
+import { FaBell } from "react-icons/fa";
 
-export default Navbar
+const Navbar = ({ sidebarToggle, setSidebarToggle }) => {
+  return (
+    <main>
+      <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white flex justify-between px-3 py-3 shadow-md z-50">
+        <section className="flex items-center gap-6">
+          {/* Menu Button */}
+          <ImMenu
+            className="text-3xl cursor-pointer"
+            onClick={() => setSidebarToggle(!sidebarToggle)}
+          />
+          {/* Logo */}
+          <Link to={"/"} className="text-5xl font-mono">
+            logo
+          </Link>
+        </section>
+        
+        <section className="flex items-center gap-4">
+          {/* Bell and Account Icons */}
+          <FaBell className="text-4xl" />
+          <MdAccountCircle className="text-5xl" />
+        </section>
+      </nav>
+      <hr />
+    </main>
+  );
+};
+
+export default Navbar;
