@@ -14,17 +14,13 @@ const Header = () => {
     <AppBar 
       position="sticky" 
       sx={{
-        background: '#1E3A8A', 
+        background: '0 4px 12px rgba(0,0,0,0)', 
         boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', // Soft shadow for AppBar
       }}
     >
       <Toolbar className="flex justify-between items-center px-4 py-2">
         {/* Logo Section */}
-        <Box className="flex items-center">
-          <Typography variant="h6" className="font-bold text-white text-2xl">
-            Umeedey
-          </Typography>
-        </Box>
+        <h2 className="text-2xl md:text-3xl font-bold text-center">Umeedey</h2>
 
         {/* Desktop Navigation */}
         <Box className="hidden md:flex space-x-8">
@@ -105,7 +101,7 @@ const Header = () => {
           <ListItem button onClick={closeDrawer}>
             <NavLink to="/register" className="w-full">
               <button
-                className="w-full rounded-full py-2 font-semibold shadow-lg hover:bg-teal-500 transition-all duration-300"
+                className=" w-full rounded-full py-2 font-semibold shadow-lg hover:bg-teal-500 transition-all duration-300"
                 style={{ backgroundColor: '#2D9CDB', color: '#fff', border: 'none' }}
               >
                 Register Now

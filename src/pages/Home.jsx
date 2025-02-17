@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="font-sans text-gray-900">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-400 py-24 px-4 md:px-12 text-white">
+      <section className="bg-gradient-to-r from-yellow-700 to-yellow-400 py-24 px-4 md:px-12 text-white">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
             Unlock Your Future with Professional IT Courses at Umeedey
@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             
             <div className="course-card bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSId33poDQBhzSeAAPIYQpdfcivsfbgRMNDB6iZLu8bmq0j5laVPCWJgE3fJfnfDDJQEos&usqp=CAU" alt="Cyber Security" className="w-full h-48 object-cover" />
+              <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240229165546/Cybersecurity-Threats-copy.webp" alt="Cyber Security" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-4">Cyber Security</h3>
                 <p className="text-gray-700 mb-4">Become an expert in safeguarding networks and systems from cyber threats.</p>
@@ -56,7 +56,7 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-blue-600 text-white text-center">
+      <section className="py-16 bg-gray-700 text-white text-center">
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">Ready to Take Your Skills to the Next Level?</h2>
         <p className="text-lg md:text-xl mb-6">Join our community of learners and start your journey towards success with Umeedey.</p>
         <a 
