@@ -31,6 +31,41 @@ const courses = [
     duration: '10 Weeks',
     price: '$649',
   },
+  {
+    id: 5,
+    name: 'Artificial Intelligence',
+    description: 'Dive into machine learning algorithms, neural networks, and deep learning.',
+    duration: '12 Weeks',
+    price: '$749',
+  },
+  {
+    id: 6,
+    name: 'Digital Marketing',
+    description: 'Master SEO, SEM, social media, and email marketing strategies.',
+    duration: '8 Weeks',
+    price: '$399',
+  },
+  {
+    id: 7,
+    name: 'Cloud Computing',
+    description: 'Learn how to use cloud platforms like AWS, Azure, and Google Cloud.',
+    duration: '10 Weeks',
+    price: '$699',
+  },
+  {
+    id: 9,
+    name: 'UI/UX Design',
+    description: 'Learn the principles of user interface and user experience design.',
+    duration: '8 Weeks',
+    price: '$499',
+  },
+  {
+    id: 10,
+    name: 'Blockchain Development',
+    description: 'Understand blockchain technology and how to create decentralized apps.',
+    duration: '12 Weeks',
+    price: '$899',
+  },
 ];
 
 const Courses = () => {
