@@ -4,7 +4,7 @@ import { MdAccountCircle } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { FaBell } from "react-icons/fa";
 
-const Navbar = ({ sidebarToggle, setSidebarToggle }) => {
+const Navbar = ({ sidebarToggle, setSidebarToggle,mainToggle,setMainToggle }) => {
   return (
     <main>
       <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white flex justify-between px-3 py-3 shadow-md z-50">
@@ -12,10 +12,10 @@ const Navbar = ({ sidebarToggle, setSidebarToggle }) => {
           {/* Menu Button */}
           <ImMenu
             className="text-3xl cursor-pointer"
-            onClick={() => setSidebarToggle(!sidebarToggle)}
+            onClick={() => {setSidebarToggle(!sidebarToggle),setMainToggle(!mainToggle)}}
           />
           {/* Logo */}
-          <Link to={"/"} className="text-5xl font-mono">
+          <Link to={"/dashboard"} className="text-5xl font-mono">
             logo
           </Link>
         </section>
